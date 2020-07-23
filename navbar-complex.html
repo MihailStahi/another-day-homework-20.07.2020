@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NAVBAR| CSS SELECTORS ADVANCED </title>
+    <style>
+body{
+    margin: 0;
+}   
+ul{
+    margin: 0;
+    padding: 0;   
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+    }
+nav{
+    background-color: #333   ;
+    height: 60px;
+}
+nav a{
+    color: white;
+}
+nav ul :first-child{
+    float: left;
+}
+nav ul:last-child{
+    float: right;
+}
+nav li{
+    float: left;
+    padding: 20px;
+}
+nav a:hover{
+    color: orange;
+}
+li img{
+    width: 32px;
+    height: 30px;
+    transform: translatey(-8px) ;
+    padding: 5px;
+    background-color: green;
+}
+#contact{
+
+    margin-top: 400px;
+    width: 400px;
+    float: left;
+}
+#socials{
+    color:red ;
+    margin-top: 400px;
+    width: 400px;
+    float: right;
+}
+div{
+    padding: 30px;
+}
+
+div:hover{
+    background-color: yellow;
+    color: red;
+}
+.arrow{
+  margin-left: 350px;
+background-color: green;
+  padding: 1px;
+  border: black solid 1px;
+}
+
+.arrow:hover{
+    background-color: yellow;
+    
+}
+ </style>
+</head>
+<body>
+
+    <nav>
+
+        <ul>
+            <li>
+                <a href="navbar-complex.html">
+                <img src="https://icons.iconarchive.com/icons/icons8/windows-8/32/Logos-Google-Scholar-icon.png" alt="LOGO1" class="img-responsive" width="150">
+            </a>
+            </li>
+            <li><a href="">About</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Contacts</a></li>
+        </ul>
+        <ul>
+            <li><a href="">Sign Up</a></li>
+            <li><a href="">Member Area</a></li>
+        </ul>
+    </nav>
+    <nav>
+        <div id="contact">
+            Contactare
+            Serviciul Fiscal de Stat
+            MD-2005
+            mun. Chişinău,
+            str. Constantin Tănase, 9 Anticamera:
+            Tel:
+            Fax:	0(22) 823353
+            0(22) 823354
+            Anticamera:
+            Tel:
+            Fax:	
+            0(22) 823357
+            0(22) 214077
+            Email: mail@sfs.md
+                    </div>
+        <div id="socials">
+          <span>  SOCIALS BEST WASTING TIME  </span>
+            <BR>
+            <br>
+          <a href=""> <img src="https://icons.iconarchive.com/icons/danleech/simple/48/facebook-icon.png" alt="1"> </a> 
+          <a href=""> <img src="https://icons.iconarchive.com/icons/yootheme/social-bookmark/48/social-twitter-box-blue-icon.png" alt="1"> </a> 
+          <a href=""> <img src="https://icons.iconarchive.com/icons/wwalczyszyn/android-style-honeycomb/48/YouTube-icon.png" alt="1"> </a> 
+         <br>
+         <a href="navbar-complex.html">
+         <img class="arrow" src="https://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/48/Actions-arrow-up-icon.png" alt="">   
+        </a>
+        </div>
+
+    </nav>
+   
+</body>
+</html>
